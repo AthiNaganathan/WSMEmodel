@@ -11,7 +11,7 @@ Step 3: Modify the input parameters in cmapCalcElecBlock.m and exceute it. Multi
 
 Step 4: Execute FesCalc_Block.m to generate free-energy profiles and surfaces of the protein under consideration. Longer the protein, more will be the time taken. For CI2, a 65 residue protein, it takes less than 3 minutes to generate the conformational landscape.
 
-Caution 1 - Large block sizes have not been tested. Larger the block size, more will be the smoothening of the free-energy profile/surface - but the outputs can be generated faster.
+Caution 1 - Large block sizes (>6) have not been tested. Larger the block size, more will be the smoothening of the free-energy profile/surface - but the outputs can be generated faster.
 
 Caution 2 - For a more quantiative comparison with experiments (for example, stability), the parameters need to be iteratively modified.
 
