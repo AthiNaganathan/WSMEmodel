@@ -5,7 +5,7 @@ Cite:  Thermodynamics and folding landscapes of large proteins from a statistica
 
 Step 1: Identify a PDB file and ensure that there are no missing atoms/residues or breaks (preferably between 50 - 700 residues)
 
-Step 2: Generate the STRIDE output as per the format attached and save as 'struct.txt'
+Step 2: Generate the STRIDE output as per the format attached and save as 'struct.txt' (this needs to be generated for every protein of interest)
 
 Step 3: Modify the input parameters in cmapCalcElecBlock.m and exceute it. Multiple outputs will be generated. This will take only a few seconds.
 
