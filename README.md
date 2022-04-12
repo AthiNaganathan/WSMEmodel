@@ -16,3 +16,5 @@ Caution 1 - Large block sizes (>6) have not been tested. Larger the block size, 
 Caution 2 - For a more quantiative comparison with experiments (for example, stability), the parameters need to be iteratively modified.
 
 Caution 3 - The current approximation underestimates the configurational entropy of the unfolded state and hence should be used with care.
+
+Caution 4 - The version of the code here can be directly used to simulate thermodynamic unfolding behaviors of water-soluble proteins with a dielectric constant of 29 (DOI: 10.1021/ct300676w). For membrane proteins, the dielectric constant needs to be changed to 4 (instead of 29) in the files FesCalc_Block.m (Line 87) and in cmapCalcElecBlock.m (Line 123).
